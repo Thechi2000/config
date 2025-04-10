@@ -1,0 +1,13 @@
+#!/bin/sh
+
+name=$1
+exe=$2
+
+wid=$(wmctrl -l | grep $1 | tail -n 1 | cut -d ' ' -f 1)
+
+if [ "$wid" == "" ]; then
+	$exe
+else
+	wmctrl -i -a $wid
+fi
+
