@@ -42,6 +42,9 @@
 "xdotool getactivewindow | xargs printf '0x%08x\n' | xargs xdotool windowclose"
   m:0x50 + Super_L + q
 
+"show Spotify /usr/bin/spotify"
+  m:0x50 + Super_L + y
+
 "show Discord /var/lib/snapd/snap/bin/discord"
   m:0x50 + Super_L + d
 
