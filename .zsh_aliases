@@ -1,0 +1,11 @@
+#!/bin/bash
+
+alias c.="code ."
+alias c="code -g"
+
+alias l="lsd -la"
+alias lt="lsd --tree"
+
+alias activate=". .venv/bin/activate"
+
+alias sido=sudo
