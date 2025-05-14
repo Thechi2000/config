@@ -1,0 +1,12 @@
+[submodule "custom/plugins/zsh-syntax-highlighting"]
+	path = custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "custom/plugins/zsh-autosuggestions"]
+	path = custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "custom/themes/zido-zsh-theme"]
+	path = custom/themes/zido-zsh-theme
+	url = https://github.com/Thechi2000/zido-zsh-theme.git
+[submodule "custom/plugins/zsh-pludo"]
+	path = custom/plugins/zsh-pludo
+	url = https://github.com/Thechi2000/zsh-pludo.git

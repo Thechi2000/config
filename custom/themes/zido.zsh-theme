@@ -1,0 +1,1 @@
+/home/ludovic/config/custom/themes/zido-zsh-theme/zido.zsh-theme
