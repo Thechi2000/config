@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Open or Focus",
+        "Description": "Shortcuts to focus an application, or open it if it is closed",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "ludovic.mermod@gmail.com",
+                "Name": "Ludovic Mermod"
+            }
+        ],
+        "Id": "open-of-focus",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://lmermod.ch"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
+
