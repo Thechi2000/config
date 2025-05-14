@@ -10,7 +10,7 @@ function focusOrOpen(name, path) {
             }
         }
 
-        callDBus('org.kde.klauncher5', '/KLauncher', 'exec_blind', '/usr/bin/bash', path);
+	callDBus('org.kde.krunner', '/App', 'org.kde.krunner.App.query', path)
     }
 }
 
@@ -27,4 +27,8 @@ for (var i = 0; i < clients.length; i++) {
 add("Konsole", "konsole", "Meta+§")
 add("Firefox", "firefox", "Meta+F")
 add("Code - OSS", "code", "Meta+C")
+add("Spotify", "spotify", "Meta+S")
+add("Discord", "discord", "Meta+D")
+add("Slack", "slack", "Meta+S")
+add("Telegram", "telegram", "Meta+T")
 
